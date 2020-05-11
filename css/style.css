@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.panel > h1 {
+  text-align: center;
+}
+
+.esks {
+  display: flex;
+}
+
+.esks > div {
+  outline: 1px solid black;
+  width: 50%;
+  height: 400px;
+}
+
+.esks > div > h2 {
+  text-align: center;
+}
+
+.display {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 auto;
+  outline: 1px solid black;
+}
+
+.display.on {
+  background-color: #0f0;
+}
+
+.display.off {
+  background-color: #f00;
+}
+
+.btns {
+  width: 400px;
+  margin: 20px auto;
+}

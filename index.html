@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Панель керування</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="panel">
+      <h1>Система управління ескалаторами</h1>
+      <div class="esks">
+        <div class="esk1">
+          <h2>Ескалатор 1</h2>
+          <div class="display on">
+            В
+          </div>
+        </div>
+        <div class="esk2">
+          <h2>Ескалатор 2</h2>
+          <div class="display on">
+            Н
+          </div>
+        </div>
+      </div>
+      <div class="btns">
+        <button onclick="overload_handler()">Перевантаження</button>
+        <button onclick="reverse_handler()">Зміна руху ескалаторів</button>
+        <button onclick="fire_handler()">Пожежа</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
