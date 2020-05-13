@@ -1,0 +1,25 @@
+{
+  "name": "rsoi-visualization",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Visualization server for log file",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedotom2/RSOI-visualization.git"
+  },
+  "author": "Max Fedotov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedotom2/RSOI-visualization/issues"
+  },
+  "homepage": "https://github.com/fedotom2/RSOI-visualization#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1"
+  }
+}
